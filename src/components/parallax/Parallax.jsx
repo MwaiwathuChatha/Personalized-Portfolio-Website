@@ -1,6 +1,7 @@
-import { useRef } from "react"
+
 import "./parallax.scss"
 import {motion, useScroll,useTransform} from "framer-motion"
+import { useRef } from "react"
 
 
 
@@ -8,6 +9,9 @@ import {motion, useScroll,useTransform} from "framer-motion"
 
 // eslint-disable-next-line react/prop-types
 const Parallax = ({type}) => {
+    //ka cheat sheet ka parallax effect 
+    //you can copy and paste this in any component and 
+    //freely add the effect to any element
     const ref =useRef();
 
 const {scrollYProgress}=useScroll({
@@ -33,7 +37,9 @@ const yBg=useTransform(scrollYProgress,[0,1],["0%","100%"])
         <motion.div className="mountains">
 
         </motion.div>
-        <motion.div className="planets">
+        <motion.div className="planets" style={{y:yBg,
+        backgroundImage: `url(${type==="services"?"/planets.png":"/sun.png"})`
+        }}>
 
         </motion.div>
         <motion.div className="stars">
