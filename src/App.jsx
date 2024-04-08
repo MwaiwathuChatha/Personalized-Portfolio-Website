@@ -1,11 +1,12 @@
 import "./app.scss"
 import Navbar from "./components/navbar/Navbar"
-
+import Banner from "./components/Banner/Banner"
 function App() {
   return (
     <div>
         <section id="Homepage">
           <Navbar />
+          <Banner /> 
         </section>
         <section id="Services">Parallax</section>
         <section>Services</section>
