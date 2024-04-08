@@ -30,7 +30,7 @@ const sliderVariant={
     x:"-800%",
     transition:{
       repeat:Infinity,
-      duration:40,
+      duration:25,
     },
   },
 }; 
@@ -49,7 +49,7 @@ const Banner = () => {
           
         </motion.div>
         <motion.div variants={sliderVariant} initial="initial" animate="animate" className="slidingText">
-        Web Development Electronics UI/UX Design
+        Web Development UI/UX Design
       </motion.div>
         
         <div className="imageContainer">
