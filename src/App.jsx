@@ -14,6 +14,8 @@ function App() {
         <section id="Services"><Parallax type="services" /></section>
         <section>Services</section>
         <section id="Portfolio"><Parallax type="portfolio" /></section>
+        <section>Tech Stack</section>
+
        {/*we will create our sections inside our portfolio component */}
        <Portfolio />
         

@@ -27,12 +27,12 @@ const yBg=useTransform(scrollYProgress,[0,1],["0%","100%"])
     style={{
         background:
         type==="services"
-        ? "linear-gradient(180deg,#5e63b6,#27296d)"
-        : "linear-gradient(180deg,#9896f1,#edb1f1)"
+        ? "linear-gradient(180deg,#1a2639,#5e63b6)"
+        : "linear-gradient(180deg,#1a2639,#5e63b6)"
         }}> 
         <motion.h1 style={{y:yBg}}>{type==="services"
-        ?"Our Services"
-        :"Our Tech Stack"}
+        ?"Services offered"
+        :"Tech Stack"}
         </motion.h1>
         <motion.div className="mountains">
 

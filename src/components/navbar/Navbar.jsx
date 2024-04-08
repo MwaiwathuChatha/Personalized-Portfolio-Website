@@ -4,7 +4,7 @@ import Sidebar from "../sidebar/Sidebar"
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar" style={{background:'#27296d'}}>
             {/* Side Bar */}
             <Sidebar />
             <div className="wrapper">
