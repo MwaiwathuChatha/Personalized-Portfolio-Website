@@ -1,29 +1,32 @@
 import "./techstack.scss"
+import {motion} from "framer-motion"
 
 const TechStack = () => {
   return (
     <>
       <div className="techstack">
 
-        <div className="listContainer">
+        <motion.div className="listContainer">
 
-          <div className="box">
-            <h2>MERN Stack</h2>
+          <motion.div className="box" whileHover={{scale:1.5}}>
+            <h1>MERN Stack</h1>
             <img src="/mern.png" alt="" />
-          </div>
+          </motion.div>
         
 
-        <div className="box">
-          <h2>Vanilla Javascript</h2>
+        <motion.div className="box" whileHover={{scale:1.5}}>
+          <h1>Javascript</h1>
           <img src="/javascriptHtmlCss.png" alt="" />
-        </div>
+        </motion.div>
 
 
-        <div className="box">
-          <h2>React Native</h2>
+        <motion.div className="box" whileHover={{scale:1.5}}>
+          <h1>React Native</h1>
           <img src="/reactnative.png" alt="" />
-        </div>
-        </div>
+        </motion.div>
+
+
+        </motion.div>
       </div>
 
     </>

@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .contact {
   height: 100%;
   max-width: 1366px;
@@ -6,13 +8,20 @@
   align-items: center;
   gap: 50px;
   padding: 10%;
-  background-color: linear-gradient(0deg, blue, green 40%, red);
+  background: linear-gradient(180deg,#27296d,#5e63b6);
+  background-image: url("/stars.png");
+  background-size: cover;
+ 
+  
+
+ 
 
   .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
 
     h1 {
       font-size: 100px;
@@ -43,6 +52,9 @@
       }
       button{
         background-color:plum;
+        @media mobile{
+          background-color: #27296d;
+        }
         border: none;
         padding: 20px;
         border-radius: 10px;

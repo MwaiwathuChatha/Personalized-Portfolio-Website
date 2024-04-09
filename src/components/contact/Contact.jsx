@@ -41,7 +41,7 @@ const Contact = () => {
       };
 
     return (
-        <motion.div className="contact" variants={variants} initial="initial" whileInView="animate">
+        <div className="contact">
             <motion.div className="textContainer" variants={variants}>
                 <motion.h1 variants={variants}>Lets work together</motion.h1>
                 <motion.div variants={variants} className="item">
@@ -70,7 +70,7 @@ const Contact = () => {
                     {success&&"Success"}
                 </form>
             </div>
-        </motion.div>
+        </div>
     )
 }
 

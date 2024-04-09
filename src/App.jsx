@@ -27,11 +27,10 @@ function App() {
       </section>
 
 
-      {/* <Portfolio  />
         
         <section id="Contact">
           <Contact />
-        </section> */}
+        </section>
 
     </div>
 

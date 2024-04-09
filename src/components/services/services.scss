@@ -1,4 +1,13 @@
+@import "../../app.scss";
+
+
 .services{
-    
+    @include mobile{
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
    
 }
