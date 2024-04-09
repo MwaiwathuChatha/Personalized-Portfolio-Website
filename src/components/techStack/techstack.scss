@@ -1,3 +1,26 @@
-.techStack{
-    
+.techstack {
+    background: linear-gradient(180deg,#27296d,#5e63b6);
+    height: 100%;
+   
+
+    .listContainer{
+       
+        flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+
+        .box{
+            margin-top: 25%;
+            padding: 50px;
+            border: 0.5px solid white;
+
+            img{
+                width: 250px;
+                height: 150px;
+            }
+
+        }
+
+    }
 }
