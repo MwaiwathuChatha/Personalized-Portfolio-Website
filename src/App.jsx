@@ -17,7 +17,7 @@ function App() {
         <section>Tech Stack</section>
 
        {/*we will create our sections inside our portfolio component */}
-       <Portfolio />
+       <Portfolio  />
         
         <section id="Contact">
           <Contact />
