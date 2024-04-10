@@ -43,10 +43,7 @@ const Banner = () => {
         <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
           <motion.h2 variants={textVariants}>Mwaiwathu Chatha</motion.h2>
           <motion.h1 variants={textVariants}> Web Developer</motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button onClick={Projects} variants={textVariants}>See projects</motion.button>
-            <motion.button variants={textVariants}>Lets connect!</motion.button>
-          </motion.div>
+         
           
         </motion.div>
         <motion.div variants={sliderVariant} initial="initial" animate="animate" className="slidingText">
