@@ -1,67 +1,79 @@
 @import "../../app.scss";
 
 .contact {
-  height: 100%;
+  height: 100vh;
   max-width: 1366px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  padding: 10%;
-  background: linear-gradient(180deg,#27296d,#5e63b6);
+  background: linear-gradient(180deg, #27296d, #5e63b6);
   background-image: url("/stars.png");
   background-size: cover;
- 
+  position: relative;
   
-
  
 
-  .textContainer {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  .wrappernem {
     
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding-top: 7%;
+      
 
-    h1 {
-      font-size: 100px;
-      line-height: 88px;
-    }
-
-    span {
-      font: weight 300px;
-    }
-  }
-  .formContainer {
-    flex: 1;
-    position: relative;
-    
-    form {
-        padding-top: 15%;
+    .textContainer {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 40px;
+      padding: 20px;
+   
 
-      input,
-      textarea {
-        padding: 20px;
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
-        border-radius: 5px;
-      }
-      button{
-        background-color:plum;
-        @media mobile{
-          background-color: #27296d;
+      h1 {
+        font-size: 100px;
+        line-height: 88px;
+        @include mobile{
+          font-size: 56px;
+          line-height: 50px;
         }
-        border: none;
-        padding: 20px;
-        border-radius: 10px;
-        width: 200px;
-        cursor: pointer;
-        margin-left: 30%;
+       
+      }
 
+      span {
+        font: weight 300px;
+      }
+    }
+    .formContainer {
+    
+      display: flex;
+      position: relative;
+      
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input,
+        textarea {
+          padding: 20px;
+          background-color: transparent;
+          border: 2px solid white;
+          color: white;
+          border-radius: 5px;
+        }
+        button {
+          background-color: plum;
+          border: none;
+          padding: 20px;
+          border-radius: 10px;
+          width: 350px;
+          cursor: pointer;
+          padding: 2%;
+          margin: 0;
+          
+          
+        }
       }
     }
   }

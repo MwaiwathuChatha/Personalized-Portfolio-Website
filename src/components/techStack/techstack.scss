@@ -1,54 +1,52 @@
 @import "../../app.scss";
 .techstack {
-    background: linear-gradient(180deg, #1a2639, #5e63b6);
-   
-    height: 100%;
-    width: 100%;
-    max-width: 1366px;
-    background-image: url("/stars.png");
-    background-size: cover;
+  background: linear-gradient(180deg, #1a2639, #5e63b6);
+  height: 100vh;
+  max-width: 1366px;
+  background-image: url("/stars.png");
+  background-size: cover;
+  position: relative;
+
+
+
+  .listContainer {
+    width: 100vw;
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    overflow-y: scroll;
+    gap: 90px;
     
-   
+    
 
-    .listContainer{
+    .box {
+      padding: 5px;
+    
+       justify-content: center;
+      
        
-        flex: 2;
-        flex-direction: column;
-        margin: auto;
+       
 
-        @media mobile{
-
-            width: 100%;
-            height: 50%;
-            
-          
-
-
-        }
-
-        .box{
-            padding: 50px;
+      img {
+        width: 250px;
+        height: 170px;
+       
+    
+      }
         
-
-            img{
-                width: 250px;
-                height: 150px;
-                margin-left: 12%;
-            }
-
-            h1{
-                margin-left: 26%;
-                margin-bottom: 7%;
-                font-size: xx-large;
-
-                
-
+      h1 {
         
-                
-
-            }
-        }
-
+        font-size: xx-large;
+        margin: 10px;
+        margin-left: 10%;
+        margin-bottom: 13%;
+       
+      }
     }
+  }
 }
