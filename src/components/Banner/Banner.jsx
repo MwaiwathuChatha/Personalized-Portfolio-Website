@@ -46,7 +46,7 @@ const Banner = () => {
             <motion.button variants={textVariants}>See projects</motion.button>
             <motion.button variants={textVariants}>Lets connect!</motion.button>
           </motion.div>
-          <motion.img animate="scrollButton" variants={textVariants} src="/scroll.png" alt="" />
+          
         </motion.div>
         <motion.div variants={sliderVariant} initial="initial" animate="animate" className="slidingText">
           Web Development UI/UX Design
