@@ -48,6 +48,10 @@
         margin: 10px;
         margin-left: 10%;
         margin-bottom: 13%;
+        @include mobile{
+       margin-right: 7%;
+       padding-right: 2%;
+        }
        
       }
     }

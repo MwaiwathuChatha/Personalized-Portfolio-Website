@@ -11,7 +11,9 @@
 
    .head{
 
-margin-bottom: 450px;
+margin-bottom: 40px;
+margin-right: 90px;
+
    h1{
     font-size: 100px;
     margin-right: 5%;
@@ -19,8 +21,8 @@ margin-bottom: 450px;
     @include mobile{
          font-size: 72px;
          text-align: center;
-         margin-top: 70%;
-         margin-left: 5%;
+         margin-bottom: 60%;
+         margin-left: 15%;
          
          
     }

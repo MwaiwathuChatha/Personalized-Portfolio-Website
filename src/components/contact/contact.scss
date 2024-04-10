@@ -18,15 +18,18 @@
       
       align-items: center;
       justify-content: center;
-      gap: 40px;
-      padding-top: 7%;
+      gap: 20px;
+      padding-top: 5%;
       
 
     .textContainer {
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      gap: 20px;
       padding: 20px;
+      @include mobile{
+       margin-left: 15%;
+      }
    
 
       h1 {

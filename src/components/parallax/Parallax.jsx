@@ -25,8 +25,8 @@ const Parallax = ({type}) => {
         }}> 
         <div className="head">
         <h1>{type==="services"
-        ?"Services offered"
-        :"Tech Stack"}
+        ?"Projects"
+        :"Stacks"}
         </h1>
         </div>
         
