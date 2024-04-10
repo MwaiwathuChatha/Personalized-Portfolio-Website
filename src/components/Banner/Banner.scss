@@ -2,15 +2,19 @@
 
 
 .banner{
+  max-width: 1366px;
    height: calc(100vh - 100px); 
    overflow: hidden;
    background: linear-gradient(180deg,#27296d,#5e63b6);
     position: relative;
 
+    
+
     .wrapper{
     max-width: 1366px;
     height: 100%;
     margin: auto;
+  
     
     }
 
