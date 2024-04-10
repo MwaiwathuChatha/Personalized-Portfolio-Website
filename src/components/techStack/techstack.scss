@@ -26,9 +26,12 @@
 
     .box {
       padding: 5px;
+      @include mobile{
+       margin-top: 10%;
+      }
     
        justify-content: center;
-      
+     
        
        
 

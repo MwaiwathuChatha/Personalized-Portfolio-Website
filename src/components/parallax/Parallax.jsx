@@ -23,10 +23,13 @@ const Parallax = ({type}) => {
         ? "linear-gradient(180deg,#1a2639,#5e63b6)"
         : "linear-gradient(180deg,#1a2639,#5e63b6)"
         }}> 
+        <div className="head">
         <h1>{type==="services"
         ?"Services offered"
         :"Tech Stack"}
         </h1>
+        </div>
+        
         <div className="mountains">
 
         </div>
