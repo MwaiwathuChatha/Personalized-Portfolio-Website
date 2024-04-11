@@ -2,10 +2,10 @@ import "./app.scss"
 import Navbar from "./components/navbar/Navbar"
 import Banner from "./components/Banner/Banner"
 import Parallax from "./components/parallax/Parallax"
+import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact"
+import Services from "./components/services/Services"
 import TechStack from "./components/techStack/TechStack"
-import Projects from "./components/services/Projects"
-
 function App() {
   return (
     <div>
@@ -13,16 +13,16 @@ function App() {
         <Navbar />
         <Banner />
       </section>
-      <section>
+      <section id="Services">
         <Parallax type="services" />
         </section>
-      <section id="Projects">
-        <Projects />
+      <section>
+        <Services />
       </section>
-      <section >
+      <section id="Portfolio">
         <Parallax type="portfolio" />
         </section>
-      <section id="Stacks">
+      <section>
         <TechStack />
       </section>
 
