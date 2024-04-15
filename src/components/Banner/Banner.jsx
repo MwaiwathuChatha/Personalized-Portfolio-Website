@@ -1,4 +1,4 @@
-import Projects from "../services/Projects";
+
 import "./Banner.scss"
 import { motion } from "framer-motion"
 
